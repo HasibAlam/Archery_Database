@@ -1,0 +1,98 @@
+/* App.css */
+
+/* Full-Screen Background Image with Blur */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 1s ease-in-out;
+}
+
+.App {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5); /* Light transparent background for text */
+  border-radius: 0px;
+}
+
+/* Header */
+.header {
+  background-color: rgba(46, 125, 50, 0.8);
+  padding: 15px;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Table List */
+.table-list {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.table-list button {
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.table-list button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Data Table */
+.data-table {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-collapse: collapse;
+  border-radius: 8px;
+}
+
+.data-table th {
+  background-color: #FF4136;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.data-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  color: #000000;
+}
+
+.footer {
+  background-color: rgba(46, 125, 50, 0.8);
+  padding: 10px;
+  color: #ffffff;
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
