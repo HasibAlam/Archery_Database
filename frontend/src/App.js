@@ -16,10 +16,10 @@ function App() {
   const images = [image1, image2, image3];
 
   useEffect(() => {
-    axios
-      .get("http://127.0.0.1:8000/tables")
-      .then((response) => setTables(response.data.tables || []))
-      .catch((error) => setError("Error fetching tables: " + error));
+    axios.get("https://archery-database.onrender.com/tables")
+    .then(response => setTables(response.data.tables))
+    .catch(error => console.error("Error fetching tables:", error));
+  
 
     // Change background image every 10 seconds
     const interval = setInterval(() => {
