@@ -26,8 +26,6 @@ Git installed
 
 ✅ Clone the Repository
 
-git clone https://github.com/your-username/archery_score_app.git
-cd archery_score_app
 
 🚀 Setting Up the Backend (Python + FastAPI)
 
