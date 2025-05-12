@@ -19,7 +19,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # ✅ MySQL Connection Setup (Using Environment Variables for Security)
-DATABASE_URL = os.getenv("DATABASE_URL", "mysql+mysqlconnector://root:password@localhost/archery_ER_based")
+DATABASE_URL = "mysql+mysqlconnector://root:password@your-render-database-url/archery_ER_based"
+
 
 try:
     engine = create_engine(DATABASE_URL)
