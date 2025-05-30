@@ -1,0 +1,75 @@
+/* 🖼️ Full Page Background */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/data.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* 🎯 Main Data Container */
+  .data-analysis-page {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.85); /* Translucent white for readability */
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    color: #222;
+  }
+  
+  /* 🏹 Title Styling */
+  .data-analysis-page h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    color: darkred;
+  }
+  
+  /* 📊 Section Style */
+  .analysis-section {
+    margin-bottom: 2rem;
+  }
+  
+  /* 🔍 Section Headings */
+  .analysis-section h2 {
+    font-size: 1.5rem;
+    color: #004d66;
+  }
+  
+  /* 🧾 Code Samples or Raw Blocks */
+  .analysis-section pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+  
+  /* 📋 Tables for raw data */
+  .analysis-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .analysis-section th,
+  .analysis-section td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .analysis-section th {
+    background-color: #e3f2f9;
+    color: #004d66;
+  }
+  

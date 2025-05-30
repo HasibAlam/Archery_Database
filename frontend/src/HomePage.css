@@ -1,0 +1,64 @@
+.homepage {
+    height: 100vh;
+    width: 100vw; /* ✅ Ensure it fills full width */
+    background-image: url('./images/homepage.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .homepage h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* ✅ Add a container to align buttons horizontally */
+  .button-row {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .homepage button {
+    font-size: 1.3rem;
+    padding: 1rem 2.5rem;
+    background-color: #e63946; /* ✅ red button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .homepage button:hover {
+    background-color: #c92033;
+    transform: scale(1.05);
+  }
+  .summary-box {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 720px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    color: #222;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .summary-box p {
+    margin-bottom: 1rem;
+  }
+  
