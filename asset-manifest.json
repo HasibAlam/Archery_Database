@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Archery_Database/static/css/main.fb127c76.css",
-    "main.js": "/Archery_Database/static/js/main.13983657.js",
-    "static/js/453.8ab44547.chunk.js": "/Archery_Database/static/js/453.8ab44547.chunk.js",
+    "main.css": "/Archery_Database/static/css/main.84f82a2e.css",
+    "main.js": "/Archery_Database/static/js/main.31e5ef9f.js",
     "static/media/image1.png": "/Archery_Database/static/media/image1.73a5e7c740d1dbd7da42.png",
     "static/media/image2.png": "/Archery_Database/static/media/image2.2c72bc894358255ffa5e.png",
     "static/media/image3.png": "/Archery_Database/static/media/image3.ccad9e83987272cd228d.png",
+    "static/media/data.jpeg": "/Archery_Database/static/media/data.31b98e93649c3d61a1f5.jpeg",
+    "static/media/homepage.jpeg": "/Archery_Database/static/media/homepage.053e9cda178341eb89ab.jpeg",
     "index.html": "/Archery_Database/index.html",
-    "main.fb127c76.css.map": "/Archery_Database/static/css/main.fb127c76.css.map",
-    "main.13983657.js.map": "/Archery_Database/static/js/main.13983657.js.map",
-    "453.8ab44547.chunk.js.map": "/Archery_Database/static/js/453.8ab44547.chunk.js.map"
+    "main.84f82a2e.css.map": "/Archery_Database/static/css/main.84f82a2e.css.map",
+    "main.31e5ef9f.js.map": "/Archery_Database/static/js/main.31e5ef9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb127c76.css",
-    "static/js/main.13983657.js"
+    "static/css/main.84f82a2e.css",
+    "static/js/main.31e5ef9f.js"
   ]
 }
